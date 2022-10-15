@@ -1,0 +1,62 @@
+.Main{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(11, 0, 11);
+  font-family: sans-serif;
+  padding: 10px 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 150px;
+  margin: -10px 10% 0px 5%;
+  height: 50px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  filter: invert(100%);
+}
+
+.NavOptions{
+    width: 40%;
+    margin: 0px 20% 0px 5%;
+}
+
+.NavOptions ul {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.NavOptions ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.cartBtn{
+    padding: 0;
+    background: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Separator{
+    background-color: purple;
+    height: 8px;
+}

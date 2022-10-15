@@ -1,0 +1,32 @@
+.GridContainer{
+  margin-top: 80px;
+}
+
+.GridContainer::-webkit-scrollbar {
+  width: 10px;
+  z-index: 100000;
+}
+
+.GridContainer::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.GridContainer::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: transparent;
+}
+
+.GridContainer_dark {
+  background: #fff;
+}
+
+.GridContainer_dark:hover::-webkit-scrollbar-thumb {
+  background: rgba(6, 5, 5, 0.703);
+}
+
+.loading {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

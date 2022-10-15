@@ -1,0 +1,77 @@
+.mainCard {
+  box-shadow: rgba(54, 54, 145, 0.2) 0px 7px 29px 0px;
+  padding: 30px 20px;
+  height: auto;
+  width: 30%;
+  margin: 30px auto;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+
+.Image_container {
+  /* padding: 10px; */
+  width: 100%;
+  height: 250px;
+  border-bottom: 2px dotted rgb(181, 180, 180);
+}
+
+.Image_container img {
+  width: 60%;
+  height: 90%;
+}
+
+.category{
+  text-align: right;
+  font-size: 14px;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(154, 153, 153);
+}
+
+.title{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(91, 64, 2);
+  margin: 10px 0px 5px 0px;
+}
+
+.rating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  line-height: 10px;
+  background-color: rgb(82, 197, 250);
+  width: 40px;
+  height: 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0px;
+  border: 2px solid rgb(0, 132, 255);
+  color: white;
+  font-weight: bold;
+}
+
+.desc{
+  font-size: 14px;
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+.price{
+  text-align: left;
+  color: rgb(243, 8, 125);
+  font-weight: bold;
+}
+
+.cartbtn{
+  background-color: rgb(255, 157, 0);
+  border: 2px solid rgb(243, 177, 70);
+  padding: 6px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
